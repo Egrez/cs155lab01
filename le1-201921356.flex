@@ -62,7 +62,7 @@ BEGIN		         BEGIN
 END		         END
 IDENTIFIER        {LETTER}({LETTER}|{DIGIT})*
 CHAR              [^"]
-STRING_TEXT       \"{CHAR}+\" 
+STRING_TEXT       \"\"{CHAR}+\"\" 
 
 %%
 "\n"         	   { lineno++; }
