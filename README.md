@@ -79,7 +79,7 @@ To execute: `./le1-lexer.out test/testfile.ec`
 | ) | ) |
 | " | " |
 
-### Special characters
+### Identifier
 | Token type | Token value (examples) |
 | --- | --- |
 | IDENTIFIER | x |
